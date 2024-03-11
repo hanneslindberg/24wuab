@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Kung Fu Panda",
+    "rating": 7.6,
+    "actors": ["Jack Black", "Angelina Jolie"]
+  },
+  {
+    "name": "Titanic",
+    "rating": 7.9,
+    "actors": ["Leonardo DiCaprio", "Kate Winslet"]
+  },
+  {
+    "name": "Interstellar",
+    "rating": 8.7,
+    "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+  },
+  {
+    "name": "Dune: Part Two",
+    "rating": 8.9,
+    "actors": ["Timothée Chalamet", "Zendaya"]
+  },
+  {
+    "name": "Oppenheimer",
+    "rating": 8.4,
+    "actors": ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Junior"]
+  }
+]
