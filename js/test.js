@@ -11,4 +11,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Visa den specifika informationen på sidan
     document.getElementById('titel').innerHTML = movieName;
     document.getElementById('rating').innerHTML = movieRating;
+    document.getElementById('actors').innerHTML = movieActors;
   });
