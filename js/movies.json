@@ -23,5 +23,11 @@
     "name": "Oppenheimer",
     "rating": 8.4,
     "actors": ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Junior"]
+  },
+  {
+    "name": "Avatar",
+    "rating": 7.9,
+    "actors": ["Sam Worthington", "Zoe Saldana"]
   }
+
 ]

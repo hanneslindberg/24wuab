@@ -2,12 +2,12 @@ let movies = [
   {
     name: "Kung Fu Panda",
     rating: 7.6,
-    actors: ["Jack Black", "Angelina Jolie"],
+    actors: ["Jack Black", "Angelina Jolie"]
   },
   {
     name: "Titanic",
     rating: 7.9,
-    actors: ["Leonardo DiCaprio", "Kate Winslet"],
+    actors: ["Leonardo DiCaprio", "Kate Winslet"]
   },
   {
     name: "Interstellar",
@@ -23,6 +23,11 @@ let movies = [
     name: "Oppenheimer",
     rating: 8.4,
     actors: ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Junior"]
+  },
+  {
+    name: "Avatar",
+    rating: 7.9,
+    actors: ["Sam Worthington", "Zoe Saldana"]
   }
 ];
 
@@ -43,7 +48,7 @@ console.log(movies[0].actors[1]);
 
 document.addEventListener('DOMContentLoaded', function () {
   // Hämta referens till alla länkar för filmer
-  var movieLinks = document.querySelectorAll('.link_movie');
+  let movieLinks = document.querySelectorAll('.link_movie');
 
   // Lägg till eventlyssnare för varje länk
   movieLinks.forEach(function (link) {
@@ -52,12 +57,12 @@ document.addEventListener('DOMContentLoaded', function () {
       event.preventDefault();
 
       // Hämta information om den klickade filmen från dess förälderelement
-      var movieName = this.querySelector('.name').textContent;
-      var movieRating = this.querySelector('.rating').textContent;
-      var movieActors = this.querySelector('.actors').textContent;
+      let movieName = this.querySelector('.name').textContent;
+      let movieRating = this.querySelector('.rating').textContent;
+      let movieActors = this.querySelector('.actors').textContent;
 
       // Skapa en URL-parametersträng med den sparade informationen
-      var queryParams = '?name=' + encodeURIComponent(movieName) +
+      let queryParams = '?name=' + encodeURIComponent(movieName) +
                         '&rating=' + encodeURIComponent(movieRating) +
                         '&actors=' + encodeURIComponent(movieActors);
 
