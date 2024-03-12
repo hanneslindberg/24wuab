@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+header {
+    position: relative;
+    padding: 10px;
+    height: 40px;
+
+    background-color: rgb(42, 42, 42);
+}
+
+.tillbaka {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+}
+
+#titel {
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
