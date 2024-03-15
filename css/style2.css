@@ -29,9 +29,29 @@ header {
     color: white;
 }
 
-#rating {
-    margin: 1rem;
+.rating {
+    margin-left: 1.5rem;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#rating {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.star {
+    margin-right: 10px;
+    margin-bottom: 3px;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+#actors {
+    margin-top: 1rem;
+    
     font-size: 2rem;
     font-weight: bold;
 }

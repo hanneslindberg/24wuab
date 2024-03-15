@@ -7,9 +7,15 @@ body {
 
 main {
     position: relative;
-    background-color:rgb(0, 0, 0);
+    background-image: url(/img/Morgan-Freeman.jpg);
     color: white;
     height: 616px;
+}
+
+main img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #searchbar {
@@ -48,9 +54,12 @@ footer {
 
 .link_movie {
     display: inline-block;
+
     width: 380px;
-    color: rgb(148, 146, 146);
-    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    
+    color: rgb(142, 145, 147);
+    background-color: rgb(225, 225, 225);
     margin-bottom: 10px;
 }
 
@@ -67,5 +76,5 @@ footer {
 
 .rating {
     color: black;
-    text-decoration: none;
+    
 }
