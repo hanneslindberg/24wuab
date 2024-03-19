@@ -5,17 +5,22 @@ body {
     font-family: 'Montserrat', 'sans-serif';
 }
 
+body ::-webkit-scrollbar {
+    display: none;
+}
+
 main {
     position: relative;
-    background-image: url(/img/Morgan-Freeman.jpg);
+    background-color: black;
     color: white;
     height: 616px;
 }
 
 main img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    bottom: 0;
+
+    width: 412px;
 }
 
 #searchbar {
@@ -35,12 +40,13 @@ main img {
 }   
 
 article {
-    height: 65rem;
+    background-color: rgb(40, 40, 40);
     padding: 1rem;
+    padding-bottom: 0rem;
 }
 
 article h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 3rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -48,8 +54,10 @@ article h1 {
 
 footer {
     height: 188px;
-    background-color: black;
-    color: white;
+
+    background-image: url(/img/netflix.png);
+    background-size: cover;
+    filter: brightness(0.5);    
 }
 
 .link_movie {
@@ -58,9 +66,9 @@ footer {
     width: 380px;
     border-radius: 10px;
     
-    color: rgb(142, 145, 147);
-    background-color: rgb(225, 225, 225);
-    margin-bottom: 10px;
+    color: rgb(176, 176, 176);
+    background-color: rgb(62, 62, 62);
+    margin-bottom: 1rem;
 }
 
 .link_movie p {
@@ -69,12 +77,11 @@ footer {
 }
 
 .name {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
 
 .rating {
-    color: black;
-    
+    color: rgb(255, 255, 255);
 }

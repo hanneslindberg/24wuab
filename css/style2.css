@@ -19,11 +19,12 @@ header {
     width: 45px;
 }
 
-#titel {
+#movie-name {
     margin: 0px;
     margin-top: 8px;
 
     display: flex;
+
     justify-content: center;
     
     color: white;
@@ -37,7 +38,7 @@ header {
     align-items: center;
 }
 
-#rating {
+#movie-rating {
     font-size: 2rem;
     font-weight: bold;
 }
@@ -49,9 +50,18 @@ header {
     height: 1.8rem;
 }
 
-#actors {
-    margin-top: 1rem;
+#movie-description {
+    margin: 40px;
+    margin-top: 0px;
+
+    font-size: 1rem;
+}
+
+#movie-actors {
+    margin: 1rem;
     
     font-size: 2rem;
     font-weight: bold;
+
+    border-bottom: solid 2px black;
 }
