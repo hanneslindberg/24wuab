@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: rgb(38, 38, 38);
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  height: 2.5rem;
+}
+
+main {
+  position: relative;
+  background-color: black;
+  color: white;
+  height: 616px;
+}
+
+main img {
+  position: absolute;
+  bottom: 0;
+
+  width: 412px;
+}
+
+#searchbar {
+  padding: 1rem;
+  height: 35px;
+  width: 70%;
+
+  display: flex;
+  position: absolute;
+  bottom: -1.7rem;
+  left: 50px;
+  z-index: 1000;
+  align-items: center;
+
+  background-color: white;
+  color: black;
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+
+article {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+article h1 {
+  color: rgb(255, 255, 255);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.link_movie {
+  display: inline-block;
+
+  width: 380px;
+  border-radius: 10px;
+
+  color: rgb(176, 176, 176);
+  background-color: rgb(19, 19, 19);
+  margin-bottom: 1rem;
+}
+
+.link_movie p {
+  display: block;
+  margin: 10px;
+}
+
+.rating-template-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rating {
+  margin: 6px !important;
+  color: rgb(255, 255, 255);
+}
+
+.template-rating-star {
+  margin: 6px;
+  margin-left: 10px;
+  margin-right: 0px;
+  height: 1rem;
+
+  display: flex;
+}
+
+footer {
+  height: 188px;
+
+  background-image: url(/img/netflix.png);
+  background-size: cover;
+  filter: brightness(0.3);
+  box-shadow: 0px 9px 10px 10px white;
+}
+
+
+/*-------------------------------Filmer-------------------------------*/
+
+#filmer-body {
+  background-color: black;
+}
+
+#filmer-header {
+  padding: 10px;
+  height: 40px;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(31, 31, 31);
+  box-shadow: -1px -9px 17px 0px white;
+}
+
+#filmer-header h3 {
+  margin: 1rem;
+
+  color: white;
+}
+
+.tillbaka {
+  height: 45px;
+  width: 45px;
+}
+
+.more-filmer {
+  margin-right: 1rem;
+  width: 30px;
+  height: 30px;
+}
+
+#filmer-section {
+  padding-top: 1rem;
+  background-color: rgb(29, 29, 29);
+}
+
+#movie-name {
+  margin: 0px;
+  margin-left: 24px;
+
+  color: white;
+  font-size: 2rem;
+}
+
+.rating {
+  margin-left: 1.5rem;
+  margin-bottom: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: white;
+}
+
+#movie-rating {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.star {
+  margin-left: 0.5rem;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  width: 1.8rem;
+}
+
+#movie-description {
+  margin: 40px;
+
+  color: white;
+  font-size: 1rem;
+}
+
+#movie-actors {
+  margin: 24px;
+
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*-------------------------------More-------------------------------*/
+
+#info-body {
+  background-color: black;
+}
+
+#info-section {
+  height: 15rem;
+
+  background-image: url(/img/infopic-section.jpg);
+  background-size: cover;
+  background-position: center;
+  mask-repeat: no-repeat;
+  box-shadow: 0px 4px 20px -8px white;
+}
+
+#magic {
+  margin-left: 1rem;
+  margin-bottom: 0px;
+  color: white;
+}
+
+#info-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-article img {
+  margin: 0rem;
+  margin-bottom: 10px;
+  width: 380px;
+
+  border-radius: 10px;
+}
+
+.general-information {
+  margin-bottom: 10px;
+
+  padding: 10px;
+  width: 360px;
+  border-radius: 10px;
+  
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+.general-information p{
+  margin: 0px;
+}
+
+/*-------------------------------Quotes-------------------------------*/
+

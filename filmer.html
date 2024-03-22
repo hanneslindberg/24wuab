@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMBb</title>
-    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
     <link rel="icon"  type="image/x-icon" href="/img/IMBb-icon.png">
   </head>
-  <body>
-    <header>
+  <body id="filmer-body">
+    <header id="filmer-header">
       <a href="index.html">
         <img src="img/tillbakapil.png" alt="Tillbaka" class="tillbaka" />
       </a>
@@ -19,7 +19,7 @@
       </a>
     </header>
 
-    <section>
+    <section id="filmer-section">
       <h1 id="movie-name"></h1>
     
       <div class="rating">
@@ -28,9 +28,12 @@
       </div>
     </section>
     
-    <p id="movie-description"></p>
+    <article id="filmer-article">
+      <p id="movie-description"></p>
 
-    <div id="movie-actors"></div>
+      <div id="movie-actors"></div>
+    </article>
+    
     <script src="js/page2.js"></script>
     <script src="js/main.js"></script>
   </body>
