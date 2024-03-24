@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMBb</title>
     <link rel="stylesheet" href="/css/stylesheet.css" />
-    <link rel="icon"  type="image/x-icon" href="/img/IMBb-icon.png">
+    <link rel="icon" type="image/x-icon" href="/img/IMBb-icon.png" />
   </head>
   <body>
     <div id="wrapper">
       <header class="header">
         <a href="index.html" class="home-logo">
-          <img src="/img/IMBb-logo.png" alt="Logo">
+          <img src="/img/IMBb-logo.png" alt="Logo" />
         </a>
 
         <a href="infopage.html">
@@ -30,21 +30,28 @@
 
       <article>
         <h1>Popular movies:</h1>
-        <template id="movies">
-          <a href="filmer.html" class="link_movie">
-            <p class="name"></p>
-            <div class="rating-template-div">
-              <img
-                src="/img/star.png"
-                alt="Star"
-                class="template-rating-star"
-              />
-              <p class="rating"></p>
-            </div>
 
-            <p class="actors"></p>
-          </a>
-        </template>
+        <div id="templates">
+          <template id="movies">
+            <div class="inner-border">
+              <a href="filmer.html" class="link_movie">
+                <img class="image" src="" alt="Movie" />
+
+                <div class="link-short-information">
+                  <p class="name"></p>
+                  <div class="rating-template-div">
+                    <img
+                      src="/img/star.png"
+                      alt="Star"
+                      class="template-rating-star"
+                    />
+                    <p class="rating"></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </template>
+        </div>
       </article>
 
       <footer></footer>

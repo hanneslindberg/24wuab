@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: space-around;
 
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(14, 14, 14);
 }
 
 .header a {
@@ -39,7 +39,7 @@ main img {
 
 #searchbar {
   padding: 1rem;
-  height: 35px;
+  height: 20px;
   width: 70%;
 
   display: flex;
@@ -58,7 +58,7 @@ main img {
 article {
   background-color: rgb(0, 0, 0);
   padding: 1rem;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
 }
 
 article h1 {
@@ -69,7 +69,7 @@ article h1 {
 }
 
 .link_movie {
-  display: inline-block;
+  display: flex;
 
   width: 380px;
   border-radius: 10px;
@@ -77,6 +77,16 @@ article h1 {
   color: rgb(176, 176, 176);
   background-color: rgb(19, 19, 19);
   margin-bottom: 1rem;
+}
+
+.image {
+  height: 247.75px;
+}
+
+.link-short-information {
+  margin-left: 2rem;
+  margin-top: 4rem;
+  height: 10rem;
 }
 
 .link_movie p {
@@ -91,7 +101,6 @@ article h1 {
 
 .name {
   color: rgb(255, 255, 255);
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -110,14 +119,14 @@ article h1 {
 }
 
 footer {
-  height: 188px;
+  height: 13vh;
 
-  background-image: url(/img/netflix.png);
+  background-image: url(/img/footer.jpg);
   background-size: cover;
-  filter: brightness(0.3);
-  box-shadow: 0px 9px 10px 10px white;
+  background-position: center;
+  filter: brightness(0.2);
+  box-shadow: 0px 9px 10px 10px red;
 }
-
 
 /*-------------------------------Filmer-------------------------------*/
 
@@ -134,7 +143,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(14, 14, 14);
   box-shadow: -1px -9px 17px 0px white;
 }
 
@@ -157,7 +166,7 @@ footer {
 
 #filmer-section {
   padding-top: 1rem;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(8, 8, 8);
 }
 
 #movie-name {
@@ -195,6 +204,10 @@ footer {
   width: 1.8rem;
 }
 
+#movie-image {
+  width: 380px;
+}
+
 #movie-description {
   margin: 40px;
 
@@ -212,7 +225,7 @@ footer {
 
 /*-------------------------------More-------------------------------*/
 
-#info-body {
+.general-body {
   background-color: black;
 }
 
@@ -221,6 +234,7 @@ footer {
 
   background-image: url(/img/infopic-section.jpg);
   background-size: cover;
+
   background-position: center;
   mask-repeat: no-repeat;
   box-shadow: 0px 4px 20px -8px white;
@@ -228,8 +242,13 @@ footer {
 
 #magic {
   margin-left: 1rem;
-  margin-bottom: 0px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: white;
+}
+
+#section-text p {
+  display: none;
 }
 
 #info-article {
@@ -240,26 +259,337 @@ footer {
 
 #info-article img {
   margin: 0rem;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   width: 380px;
 
   border-radius: 10px;
 }
 
 .general-information {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 
   padding: 10px;
   width: 360px;
   border-radius: 10px;
-  
+
   background-color: rgb(19, 19, 19);
   color: white;
 }
 
-.general-information p{
+.general-information p {
   margin: 0px;
+}
+
+#first-information {
+  margin-bottom: 1rem;
+
+  padding: 10px;
+  width: 360px;
+  border-radius: 10px;
+
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+#first-information p {
+  margin: 0;
 }
 
 /*-------------------------------Quotes-------------------------------*/
 
+#quotes-article {
+  padding: 0;
+}
+
+.quote {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.quote img {
+  width: 380px;
+
+  border-radius: 10px;
+}
+
+.quote p {
+  margin-bottom: 2rem;
+}
+
+.desktop-title {
+  display: none;
+}
+
+#important-quote {
+  display: none;
+}
+
+/*-------------------------Madia landing page-------------------------*/
+
+@media screen and (min-width: 600px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  main {
+    height: 80vh;
+
+    background-image: url(/img/morgan-freeman-desktop.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  main img {
+    display: none;
+  }
+
+  #searchbar {
+    height: 35px;
+    width: 30%;
+
+    left: 35vw;
+  }
+
+  article {
+    padding-bottom: 3rem;
+  }
+
+  article h1 {
+    margin-left: 4rem;
+
+    font-size: 4rem;
+  }
+
+  #templates {
+    width: 1871px;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .link_movie {
+    margin: 0px;
+    padding: 1rem;
+
+    height: 25vh;
+    width: 54rem;
+
+    transition: 0.3sec;
+  }
+
+  .inner-border {
+    margin: 1.5rem;
+    margin-left: 2.5rem;
+    margin-right: 0px;
+    width: 54rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    transition: 0.1s;
+  }
+
+  .inner-border:hover {
+    margin-bottom: 0;
+    margin-left: 1.8rem;
+
+    border: 5px solid white;
+    border-radius: 1rem;
+  }
+
+  .link_movie:hover {
+    margin: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+
+    width: 58rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+
+  .rating {
+    font-size: 1.5rem;
+  }
+
+  .template-rating-star {
+    margin-top: 7px;
+    height: 1.6rem;
+  }
+
+  footer {
+    height: 35vh;
+
+    background-image: url(/img/footer.jpg);
+    background-position: center;
+  }
+
+  /*-------------------------Fimler-------------------------*/
+
+  #movie-name {
+    margin-left: 10rem;
+
+    font-size: 3rem;
+  }
+
+  .star {
+    margin-left: 9.5rem;
+  }
+
+  .image-description {
+    display: flex;
+    align-items: center;
+  }
+
+  #movie-image {
+    margin-left: 20rem;
+  }
+
+  #movie-description {
+    margin: 5rem;
+    margin-right: 20rem;
+
+    font-size: 2rem;
+  }
+
+  #movie-actors {
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+  }
+
+  /*-------------------------More-------------------------*/
+
+  #info-section {
+    display: none;
+  }
+
+  #magic {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+
+    font-size: 3rem;
+  }
+
+  #section-text p {
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-bottom: 5rem;
+    display: flex;
+    text-align: center;
+
+    color: white;
+  }
+
+  #info-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  #first-information {
+    display: none;
+  }
+
+  .general-information {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 25vw;
+
+    background-color: black;
+    font-size: 1.5rem;
+  }
+
+  #info-article img {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    width: 25vw;
+  }
+
+  /*-------------------------Quotes-------------------------*/
+
+  #important-quote {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 1rem;
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-style: italic;
+  }
+
+  .best-quoter {
+    margin-left: 15rem;
+
+    font-size: 1.5rem;
+  }
+
+  .morgan-quote {
+    margin-bottom: 10px;
+    margin-left: 0rem;
+    text-align: center;
+
+    font-size: 2.5rem;
+  }
+
+  #quotes-article {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .quote {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgb(3, 0, 0);
+    border-radius: 1rem;
+    transition: 0.3s ease;
+  }
+
+  .quote p {
+    text-align: center;
+
+    font-size: 1.5rem;
+  }
+
+  .desktop-text {
+    padding: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .mobile-title {
+    display: none;
+  }
+
+  .desktop-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .quote:hover {
+    box-shadow: 0px 0px 30px 0px rgb(43, 0, 0);
+  }
+}
