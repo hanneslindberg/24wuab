@@ -210,7 +210,7 @@ footer {
   width: 380px;
 }
 
-#desction_title {
+#description_title {
   display: none;
 }
 
@@ -261,6 +261,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: black;
 }
 
 #info-article img {
@@ -461,14 +463,16 @@ footer {
     object-fit: cover;
   }
 
-  #desction_title {
+  #description_title {
+    display: flex;
+
     font-size: 3rem;
     color: white;
   }
 
   #movie-description {
     margin-right: 20rem;
-    margin-left: 1rem;
+    margin-left: 0px;
 
     font-size: 2rem;
   }
@@ -476,7 +480,7 @@ footer {
   #movie-actors {
     margin-top: 4rem;
     margin-right: 25rem;
-    margin-left: -0.5rem;
+    margin-left: 0px;
 
     font-size: 2rem;
   }
