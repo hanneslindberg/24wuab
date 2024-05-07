@@ -604,7 +604,7 @@ footer ul {
     margin-right: 25rem;
     margin-left: 0px;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   /*-------------------------More-------------------------*/
@@ -654,6 +654,10 @@ footer ul {
 
     background-color: black;
     font-size: 1.5rem;
+  }
+
+  .general-information h2 {
+    margin-top: 0px;
   }
 
   #info-article img {

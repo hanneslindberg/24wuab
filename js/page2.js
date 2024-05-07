@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("movie-name").textContent = movies[i].name;
       document.getElementById("movie-rating").textContent = movies[i].rating;
       document.getElementById("movie-actors").textContent =
-        movies[i].actors.join(", ");
+        movies[i].actors.join(" - ");
       document.getElementById("movie-description").textContent =
         movies[i].description;
       document.getElementById("movie-image").src = movies[i].image;
